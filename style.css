@@ -54,15 +54,13 @@ p {
     transition: all 2s;
 }
 
-.hidden.content{
-    transition:1.5s;
+.hidden.content.show {
     min-height: 50vh;
     margin-top: 10vh;
     margin-bottom: 0;
 }
 
 .hidden.chart{
-    transition:1.5s;
     filter: blur(5px);
     transform: translateX(-100%);
 }
