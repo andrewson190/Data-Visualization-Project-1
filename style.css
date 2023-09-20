@@ -60,6 +60,10 @@ p {
     margin-bottom: 0;
 }
 
+.first {
+    margin-top: 0;
+}
+
 .hidden.chart{
     filter: blur(5px);
     transform: translateX(-100%);
