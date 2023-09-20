@@ -6,12 +6,14 @@ body {
     padding: 0;
     margin: 0;
 }
+
 div{
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
 }
+
 img {
     height: auto;
     min-width: 70%;
@@ -26,20 +28,17 @@ h1 {
     text-align: center;
     font-size: 100px;
     font-weight: bold;
-    color: #ffff; /* Change to your preferred color */
     margin-bottom: 10px;    
 }
 
 h2 {
     text-align: center;
     font-size: 22px;
-    font-weight: bold;
-    color: #ffff; /* Change to your preferred color */
+    font-weight: bold;  
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-/* Paragraphs */
 p {
     text-align: center;
     width: 80%;
@@ -47,21 +46,22 @@ p {
     margin-right: auto;
     font-size: 18px;
     line-height: 1.5;
-    color: #ffff; /* Change to your preferred color */
     margin-bottom: 20px;
-}
-
-.content{
-    min-height: 50vh;
-    margin-bottom: 10vh;
 }
 
 .hidden {
     opacity: 0;
-    transition: all 1s;
+    transition: all 2s;
+}
+
+.hidden.content{
+    transition:1.5s;
+    min-height: 50vh;
+    margin-bottom: 10vh;
 }
 
 .hidden.chart{
+    transition:1.5s;
     filter: blur(5px);
     transform: translateX(-100%);
 }
@@ -78,6 +78,7 @@ p {
 .chart2 {
     width: 200vh;
 }
+
 .sketches {
     max-width: 10%;
     height: auto;
@@ -87,6 +88,7 @@ p {
     margin-top: 10vh;
     display: flex;
 }
+
 .chart{
     flex: 33.33%;
     padding: 5px;
@@ -95,6 +97,7 @@ p {
 .chart:nth-child(2) {
     transition-delay: 75ms;
 }
+
 .chart:nth-child(3) {
     transition-delay: 125ms;
 }
