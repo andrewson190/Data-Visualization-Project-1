@@ -75,7 +75,11 @@ p {
     transform: translateX(0);
 }
 
-.chart2 {
+#chart1{
+    transition: 3s;
+}
+
+#chart2 {
     width: 200vh;
 }
 
