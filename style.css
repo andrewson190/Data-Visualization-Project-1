@@ -57,7 +57,7 @@ p {
 .hidden.content{
     transition:1.5s;
     min-height: 50vh;
-    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 .hidden.chart{
