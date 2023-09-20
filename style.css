@@ -75,22 +75,20 @@ p {
     transform: translateX(0);
 }
 
-#chart1{
-    transition: 3s;
-}
-
 #chart2 {
     width: 200vh;
 }
 
-.sketches {
-    max-width: 10%;
-    height: auto;
-}
+
 
 .images{
     margin-top: 10vh;
     display: flex;
+}
+
+.sketches {
+    max-width: 8%;
+    height: auto;
 }
 
 .chart{
