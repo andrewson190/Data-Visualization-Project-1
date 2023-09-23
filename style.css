@@ -79,16 +79,16 @@ section {
 
 .sketches {
     max-width: 8%;
-    height: auto;
+    max-height: 100%;
    
 }
 
 .chart:nth-child(2) {
-    transition-delay: 50ms;
+    transition-delay: 60ms;
 }
 
 .chart:nth-child(3) {
-    transition-delay: 125ms;
+    transition-delay: 130ms;
 }
 
 #graph1 {
